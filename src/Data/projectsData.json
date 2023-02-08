@@ -1,0 +1,47 @@
+[
+    {
+        "id" : 1,
+        "img": "http://localhost:3000/static/media/ecom.cf35bb19715703045c6d.png",
+        "name": "Yutnii Home",
+        "description": "Non-commertial website where customer can purchase thing for home and admin can manage nessesary changes on page",
+        "stack": ["HTML", "CSS", "React", "NodeJs", "MongoDB"],
+        "webLink": "https://61531a5a3b8b7f41dc6ef5b0--ika-ecommerce-react.netlify.app/",
+        "gitLink":"https://github.com/iramacarilla/e_commerce_react"
+    },
+    {
+        "id" : 2,
+        "img": "http://localhost:3000/static/media/ice.20c79b7b9a89e9c78bfb.png",
+        "name": "IceCream",
+        "description": "Non-commertial landing page with decription of product icecream",
+        "stack": ["HTML", "CSS", "JavaScript"],
+        "webLink": "https://ka2nq1.github.io/parcel-project-template/",
+        "gitLink":"https://github.com/iramacarilla/e_commerce_react"
+    },
+    {
+        "id" : 3,
+        "img": "http://localhost:3000/static/media/health.b51c9024ea6b1644bcac.png",
+        "name": "SlimMom",
+        "description": "Non-commertial website to help moms to calculating the daily amount calories and create a food diary and  come in shape of their dreams. ",
+        "stack": ["HTML", "CSS", "React", "Redux Toolkit"],
+        "webLink": "https://health-teamproject.netlify.app/",
+        "gitLink":"https://github.com/iramacarilla/React_TeamProject_Health"
+    },
+    {
+        "id" : 4,
+        "img": "http://localhost:3000/static/media/saljarnas.acbe61b4174c3ff73319.png",
+        "name": "Säljarnas",
+        "description": "Help you to get knowlege and help with ",
+        "stack": ["HTML", "CSS", "PHP", "WordPress"],
+        "webLink": "https://saljarnas.se/",
+        "gitLink":""
+    },
+    {
+        "id" : 5,
+        "img": "http://localhost:3000/static/media/book.18c9e22101eb9ab7ce9b.png",
+        "name": "BR",
+        "description": "An app to help you reach your reading goals",
+        "stack": ["HTML", "CSS", "React", "Redux Toolkit", "NodeJs", "MongoDB"],
+        "webLink": "https://splendid-cheesecake-1e22ff.netlify.app/",
+        "gitLink":"https://github.com/iramacarilla/app_read_books"
+    }
+]
