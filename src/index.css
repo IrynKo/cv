@@ -169,18 +169,9 @@ nav li:hover::before {
 .nav-menu.mobile.open li{
   position: relative;
   display: block;
-    text-align: center;
-    width: fit-content;
-    margin: 3rem auto;
-}
-.nav-menu.mobile.open li:after{
-  content: "";
-  /* position: absolute;*/
-  display: block;
-    border-bottom: solid 0.5px #343a40;
-    height: 1px;
-    width: 100%;
-    bottom: -20px;
+  text-align: center;
+  width: fit-content;
+  margin: 3rem auto;
 }
 @media screen and (max-width: 768px) {
   .nav-menu.desktop {
@@ -190,12 +181,16 @@ nav li:hover::before {
     display: block;
     height: 100%;
     width: 100%;
-    background-color: #e6eaea;
+    background-color: #faf6f1;
     position: absolute;
     z-index: 5;
     top: 0;
     left: 0;
     padding-top: 125px;
+    background-image: repeating-linear-gradient( 0deg, #f0eaea, #faf2f2 1px, transparent 1px, transparent );
+    background-attachment: fixed;
+    background-size: 1px 119px;
+    min-height: 100vh;
   }
   .hamburger-menu {
     display: flex;
@@ -409,10 +404,17 @@ textPath {
 .link-further   {
   display: flex;
   color: black;
+  position: relative;
 }
 .link-further span {
   margin-right: 10px;
 }
+
+.link-further:hover {
+  cursor: pointer;
+  color: #5b305e;
+}
+
 
 /*footer*/
 
@@ -431,6 +433,9 @@ textPath {
     color: #343a40;
     width: 16px;
   margin-right: 2em;
+}
+.footer a:hover {
+ cursor: pointer;
 }
  .footer svg {
   width: 16px;
@@ -735,7 +740,8 @@ textPath {
   margin-bottom: 60px;
  }
  .contact input,
- .contact textarea {
+ .contact textarea,
+ .contact .form-btn {
   padding: 15px;
   border: none;
   border-radius: 10px;
@@ -751,10 +757,35 @@ textPath {
 
  }
  .contact .form-btn {
+  position: relative;
   width: 15rem;
   padding: 1rem;
   background-color: #212121;
   color: #f8f9fa;
+  transition: all 0.3s  ease-out;
+  
+  
+ }
+ 
+ .contact .form-btn::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    opacity: 0.3;
+    border-radius: 10px;
+    background: #eaeaea;
+    
+   /*z-index: -1;*/
+    transition: transform .3s ease;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+ }
+ .contact .form-btn:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  
  }
  .contact .contact-info__data {
   font-weight: 700;

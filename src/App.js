@@ -38,11 +38,9 @@ function App() {
   circleRefs.current = [];
 const onMouse = () => {
 setAct(prev=>!prev)
-console.log(act,'onMouse')
 }
 const offMouse = () => {
   setAct(prev=>!prev)
- console.log(act,'offMouse')
  }
 
   useEffect(() => {

@@ -4,7 +4,6 @@ import Modal from './Modal';
 
 
 const ProjectItem = ({...item}) => {
-    console.log(item, "item")
     const [openModal, setOpenModal] = useState(false);
    // console.log('try1',onMouse);
    const onHandelModal= () => {
@@ -13,7 +12,7 @@ const ProjectItem = ({...item}) => {
     return (
         <>
       
-        <li  onClick={onHandelModal} className='projects-list__item'>
+        <li key={item.id} onClick={onHandelModal} className='projects-list__item'>
                     <img src={item.img}/>
                     <div className='project-description'>
                         <h6>{item.name}</h6>

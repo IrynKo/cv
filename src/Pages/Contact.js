@@ -41,7 +41,7 @@ const Contact = () => {
           <input  type='email' name="user_email"  onChange={handleChange} value={user.user_email} placeholder="Email"/>
           <textarea className="form-email" name="message"  onChange={handleChange} value={user.message} placeholder="Messages"/>
           
-          <input className="form-btn" type='submit' value='Send a message'/>
+          <button className="form-btn" type='submit'>Send a message</button>
       
         </form>
           <LinkFurther text="Go back home!" link=""/>

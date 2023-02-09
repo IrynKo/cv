@@ -15,7 +15,7 @@ const CV = () => {
             target="_blank" rel="noopener noreferrer" download="cv" aria-label="Go to Resumé Page"> download </a>
              the resume </p>
            
-            <iframe src="https://www.canva.com/design/DAFZzNUKAI8/s52xYBF1tVyXti1BO_EQYA/view?embed#view=fitH" allowfullscreen width="705px" height="1000px" title="Iryna Kosynienko Resumé"  scrolling="no" toolbar="0"/>
+            <iframe src="https://www.canva.com/design/DAFZzNUKAI8/s52xYBF1tVyXti1BO_EQYA/view?embed#view=fitH" allowFullscreen width="705px" height="1000px" title="Iryna Kosynienko Resumé"  scrolling="no" toolbar="0"/>
           <LinkFurther text="Contact me now!" link=""/>
             <Footer/>
             </div>
